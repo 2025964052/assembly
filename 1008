@@ -1,0 +1,20 @@
+1. PUSHAD
+2. PUSHFD
+3. POPFD
+4. 필요한 레지스터만 저장하여 실행 속도 향상, 스택 용량 절약, EAX 복원으로 인한 반환값 덮어쓰기 방지
+5. sub esp, 4 / mov [esp], eax
+6. True
+7. False
+8. True
+9. False
+10. True
+11. True
+12. False
+13. False
+14. ADD ESI, 4를 ADD ESI, 2로 변경 / MOVZX EDX, WORD PTR [ESI] 사용
+15. 5
+16. d
+17. c
+18. a
+19. a
+20. 10, 20, 30, 40
